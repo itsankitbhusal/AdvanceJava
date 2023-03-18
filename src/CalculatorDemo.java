@@ -64,6 +64,24 @@ public class CalculatorDemo {
         gbc.gridy = 3;
         frame.add(new JButton("-"), gbc);
 
+        gbc.gridx = 0;
+        gbc.gridy = 4;
+        frame.add(new JButton("1"), gbc);
+
+        gbc.gridx = 1;
+        gbc.gridy = 4;
+        frame.add(new JButton("2"), gbc);
+
+        gbc.gridx = 2;
+        gbc.gridy = 4;
+        frame.add(new JButton("3"), gbc);
+
+        gbc.gridx = 3;
+        gbc.gridy = 4;
+        frame.add(new JButton("="), gbc);
+
+
+
 
         frame.setSize(500, 500);
         frame.setVisible(true);
