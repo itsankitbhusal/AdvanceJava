@@ -1,8 +1,6 @@
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
-
+import java.awt.event.*;
 
 public class KeyDemo extends JFrame implements KeyListener {
     JLabel label1, label2, label3;
@@ -32,7 +30,7 @@ public class KeyDemo extends JFrame implements KeyListener {
 
         setVisible(true);
         setLayout(flowLayout);
-        setSize(500, 500);
+        setSize(300, 500);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         button.addKeyListener(this);
