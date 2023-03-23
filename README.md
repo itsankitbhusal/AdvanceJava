@@ -11,7 +11,7 @@
     - Demonstrates `BorderLayout` layout manager to position `JButton` components in different areas of the `JFrame`
       window
 3. `src/FlowLayoutDemo`
-   - Demonstrates `BorderLayout` to position `JButton`,`JLabel`, `JTextField`  in different areas of `JFrame`.
+    - Demonstrates `BorderLayout` to position `JButton`,`JLabel`, `JTextField`  in different areas of `JFrame`.
 
 4. `src/GridLayoutDemo`
     - Demonstrates `GridLayout` layout manager to position `JButton` components in a grid pattern within
@@ -36,6 +36,10 @@
 10. `src/MouseDemo`
     - Added `MouseListener` **interface** to handle mouse events on **frame** using methods
       like `mousePressed`, `mouseClicked`, etc.
+11. `src/JdbcDemo`
+    - Database programming with java using `JDBC`, create `Connection`, `createStatement()`, `executeQuery()` and shown
+      it
+      using `rs.next()`
 
 ---
 
@@ -61,7 +65,8 @@ Thank you for considering contributing to this project! To contribute, follow th
 6. Be respectful and kind to other contributors and maintainers.
 7. If you have any questions or doubts, feel free to open an issue or contact the maintainers.
 
-###  In addition
+### In addition
+
 Please update a markdown file with `src/<ProgramName>` with simple description
 
 ### Thank you for your contribution!
