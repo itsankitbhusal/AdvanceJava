@@ -36,7 +36,7 @@
 10. `src/MouseDemo`
     - Added `MouseListener` **interface** to handle mouse events on **frame** using methods
       like `mousePressed`, `mouseClicked`, etc.
-11. `src/JdbcDemo`
+11. `src/SelectFromDb`
     - Database programming with java using `JDBC`, create `Connection`, `createStatement()`, `executeQuery()` and shown
       it
       using `rs.next()`
