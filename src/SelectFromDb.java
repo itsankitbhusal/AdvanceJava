@@ -1,8 +1,6 @@
-import java.io.FileInputStream;
 import java.sql.*;
-import java.util.Properties;
 
-public class JdbcDemo {
+public class SelectFromDb {
     public static void main(String[] args) {
         // JDBC driver name and database URL
         String jdbcDriver = "com.mysql.cj.jdbc.Driver";
