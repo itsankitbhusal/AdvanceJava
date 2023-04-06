@@ -21,8 +21,6 @@ public class PreparedStCRUD {
 //            select data
             SelectInDb(conn);
 
-            SelectInDb(conn);
-
             conn.close();
 
         } catch (Exception e) {
@@ -42,7 +40,6 @@ public class PreparedStCRUD {
             System.out.println(rs.getInt(1) + " " + rs.getString(2) + " " + rs.getString(3));
         }
 
-        pst.executeUpdate();
         pst.close();
 
     }
