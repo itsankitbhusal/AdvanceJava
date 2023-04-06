@@ -22,6 +22,9 @@ public class PreparedStCRUD {
             SelectInDb(conn);
 
             SelectInDb(conn);
+
+            conn.close();
+
         } catch (Exception e) {
             System.out.println("Exception occurs: " + e);
         }
@@ -41,7 +44,6 @@ public class PreparedStCRUD {
 
         pst.executeUpdate();
         pst.close();
-        conn.close();
 
     }
 
@@ -54,7 +56,6 @@ public class PreparedStCRUD {
 
         pst.executeUpdate();
         pst.close();
-        conn.close();
     }
 
     static void InsertInDb(Connection conn) throws SQLException {
@@ -68,7 +69,6 @@ public class PreparedStCRUD {
 
         pst.executeUpdate();
         pst.close();
-        conn.close();
     }
 
     static void UpdateInDb(Connection conn) throws SQLException {
@@ -81,7 +81,6 @@ public class PreparedStCRUD {
 
         pst.executeUpdate();
         pst.close();
-        conn.close();
     }
 
 }
