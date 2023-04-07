@@ -9,14 +9,14 @@ public class PreparedStCRUD {
         try {
             Class.forName(jdbcDriver);
             Connection conn = DriverManager.getConnection(dbUrl, user, password);
-            //        insert into database
-//            InsertInDb(conn);
+//                    insert into database
+            InsertInDb(conn);
 
 //            update
-//            UpdateInDb(conn);
+            UpdateInDb(conn);
 
 //            delete
-//            DeleteInDb(conn);
+            DeleteInDb(conn);
 
 //            select data
             SelectInDb(conn);
