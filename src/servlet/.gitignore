@@ -1,0 +1,36 @@
+# Ignore target directory
+target/
+
+# Ignore Maven files
+nb-configuration.xml
+pom.xml
+mvnw
+mvnw.cmd
+/.mvn/
+
+# Ignore NetBeans project files
+/nbproject/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+
+# Ignore application server-specific files
+*.bak
+*.tmp
+*.log
+*.DS_Store
+*.metadata/
+*.dat
+*.tmp
+*.rej
+
+# Ignore IDE-specific files
+*.iml
+*.iws
+*.ipr
+*.bak
+*.orig
+.idea/
+*.log
+
