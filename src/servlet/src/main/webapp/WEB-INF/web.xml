@@ -8,9 +8,28 @@
         <servlet-name>HelloWorldServlet</servlet-name>
         <servlet-class>HelloWorld</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ServletByImplements</servlet-name>
+        <servlet-class>ServletByImplements</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>FirstGenericServlet</servlet-name>
+        <servlet-class>FirstGenericServlet</servlet-class>
+    </servlet>
+
+
     <servlet-mapping>
         <servlet-name>HelloWorldServlet</servlet-name>
         <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>ServletByImplements</servlet-name>
+        <url-pattern>/implements</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>FirstGenericServlet</servlet-name>
+        <url-pattern>/generic</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
