@@ -20,6 +20,14 @@
         <servlet-name>HandleRequest</servlet-name>
         <servlet-class>HandleRequest</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>CookieServlet</servlet-name>
+        <servlet-class>CookieServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CookieServletSec</servlet-name>
+        <servlet-class>CookieServletSec</servlet-class>
+    </servlet>
 
     <servlet-mapping>
         <servlet-name>HelloWorldServlet</servlet-name>
@@ -40,10 +48,22 @@
     </servlet-mapping>
 
     <servlet-mapping>
+        <servlet-name>CookieServlet</servlet-name>
+        <url-pattern>/CookieServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CookieServletSec</servlet-name>
+        <url-pattern>/CookieServletSec</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
         <servlet-name>default</servlet-name>
         <url-pattern>/main.html</url-pattern>
     </servlet-mapping>
-
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>/form.html</url-pattern>
+    </servlet-mapping>
     <session-config>
         <session-timeout>
             30
