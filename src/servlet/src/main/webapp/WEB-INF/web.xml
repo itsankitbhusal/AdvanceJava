@@ -28,6 +28,16 @@
         <servlet-name>CookieServletSec</servlet-name>
         <servlet-class>CookieServletSec</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>SessionServlet</servlet-name>
+        <servlet-class>SessionServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SessionServletSec</servlet-name>
+        <servlet-class>SessionServletSec</servlet-class>
+    </servlet>
+
+
 
     <servlet-mapping>
         <servlet-name>HelloWorldServlet</servlet-name>
@@ -48,13 +58,14 @@
     </servlet-mapping>
 
     <servlet-mapping>
-        <servlet-name>CookieServlet</servlet-name>
-        <url-pattern>/CookieServlet</url-pattern>
+        <servlet-name>SessionServlet</servlet-name>
+        <url-pattern>/SessionServlet</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>CookieServletSec</servlet-name>
-        <url-pattern>/CookieServletSec</url-pattern>
+        <servlet-name>SessionServletSec</servlet-name>
+        <url-pattern>/SessionServletSec</url-pattern>
     </servlet-mapping>
+
 
     <servlet-mapping>
         <servlet-name>default</servlet-name>
@@ -64,6 +75,11 @@
         <servlet-name>default</servlet-name>
         <url-pattern>/form.html</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>/sessionForm.html</url-pattern>
+    </servlet-mapping>
+
     <session-config>
         <session-timeout>
             30
