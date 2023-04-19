@@ -36,7 +36,10 @@
         <servlet-name>SessionServletSec</servlet-name>
         <servlet-class>SessionServletSec</servlet-class>
     </servlet>
-
+    <servlet>
+        <servlet-name>ProcessServlet</servlet-name>
+        <servlet-class>ProcessServlet</servlet-class>
+    </servlet>
 
 
     <servlet-mapping>
@@ -78,6 +81,14 @@
     <servlet-mapping>
         <servlet-name>default</servlet-name>
         <url-pattern>/sessionForm.html</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ProcessServlet</servlet-name>
+        <url-pattern>/ProcessServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>/dbform.html</url-pattern>
     </servlet-mapping>
 
     <session-config>
