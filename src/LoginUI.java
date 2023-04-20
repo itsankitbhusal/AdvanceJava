@@ -42,4 +42,8 @@ public class LoginUI {
         frame.setLayout(null);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
+
+    public static void main(String[] args) {
+        new LoginUI();
+    }
 }
